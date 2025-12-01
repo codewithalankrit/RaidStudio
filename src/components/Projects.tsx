@@ -36,6 +36,14 @@ const Projects = () => {
       description:
         "A stunning residential project in Patna that draws inspiration from Rajasthani havelis, blending heritage with contemporary living through traditional jharokha and intricate jaali patterns.",
     },
+    {
+      id: "ergo-space",
+      title: "Ergo Space Furniture Showroom",
+      category: "Commercial Interiors",
+      image: "/ergoOffice2.webp",
+      description:
+        "A refined blend of luxury and contemporary design, crafted as an elegant, immersive furniture experience featuring clean lines, warm textures, curated lighting, and well-defined display zones.",
+    },
   ];
 
   const displayedProjects = showAll ? projects : projects.slice(0, 3);

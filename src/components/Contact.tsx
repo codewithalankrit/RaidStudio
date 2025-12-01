@@ -50,7 +50,7 @@ const Contact = () => {
       formDataToSend.append("_captcha", "false");
 
       const response = await fetch(
-        "https://formsubmit.co/connect@raidstdio.in",
+        "https://formsubmit.co/connect@raidstudio.in",
         {
           method: "POST",
           body: formDataToSend,
